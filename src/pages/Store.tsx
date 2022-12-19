@@ -4,6 +4,7 @@ import StoreItems from "../data/items.json";
 import { StoreItem } from "../components/StoreItem";
 
 export const Store = () => {
+  
   return (
     <>
       <h1>Store</h1>

@@ -6,6 +6,6 @@ const CURRENCY_FORMATTER = new Intl.NumberFormat(undefined,{
 
 //currency formatter
 
-export const formatCurrencty = (number:number) :string =>{
+export const formatCurrency = (number:number) :string =>{
     return CURRENCY_FORMATTER.format(number);
 }
